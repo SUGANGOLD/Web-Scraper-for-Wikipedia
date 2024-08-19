@@ -44,6 +44,6 @@ for row in column_data[1:]:
         print("Row data length does not match column length. Skipping row.")
 
 # Save DataFrame to a CSV file (optional)
-df.to_csv(r'C:\Users\Admin\Documents\Top_companys\largest_companies_in_india.csv', index=False)
+df.to_csv(r'your_custom_path.csv', index=False)
 
 print("Data extraction complete. Data saved to 'largest_companies_in_india.csv'.")
